@@ -1,0 +1,40 @@
+#Pai-dos-Ursos {
+    background-color: antiquewhite; /* Define a cor do fundo */
+    padding: 20px;
+    height: 350px;
+    border: 2px solid rgb(170, 145, 111);
+    border-radius: 10px;
+    text-align: center;
+}
+
+#Pai-dos-Ursos:hover {
+    background-color: rgb(184, 162, 133);
+}
+
+.caixa-simples {
+    background-color: white;
+    padding: 20px;
+    height: 60px;
+    width: 55px;
+    border: 2px solid rgb(182, 182, 182);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.caixa-simples:hover {
+    background-color: rgb(161, 161, 161);
+}
+
+#caixa-diferente {
+    background-color: brown;
+    padding: 20px;
+    height: 60px;
+    width: 55px;
+    border: solid rgb(105, 39, 39);
+    border-radius: 10px;
+    text-align: center;
+}
+
+#caixa-diferente:hover {
+    background-color: rgb(83, 25, 25);
+}
