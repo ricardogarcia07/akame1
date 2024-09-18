@@ -1,0 +1,27 @@
+#pai {
+    background-color: darkgreen;
+    display: flex;
+    flex-direction: row; /* row, column, row-reverse, column reverse */
+    height: 300px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: stretch;
+
+}
+
+.filho {
+    background-color: greenyellow;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    
+}
+
+h1 {
+    display: block;
+    background-color: greenyellow;
+    color: black;
+    width: 1340px;
+    height: 70px;
+}
