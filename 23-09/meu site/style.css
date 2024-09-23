@@ -1,0 +1,72 @@
+body {
+    margin: 0px;
+}
+
+.cabeçalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to bottom, rgb(255, 246, 233), rgb(255, 225, 185));
+    height: 100px;
+}
+
+#logo {
+    width: 100px;
+    height: auto;
+}
+
+.cabeçalho_menu > a{
+    margin-left: 1em;
+    margin-right: 1em;
+    padding: 1.86em 1.42em;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:larger
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(imagens/lampada-banner.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+img {
+
+}
+
+
+.banner-texto {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: rgb(250, 229, 203);
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.banner-texto:hover{
+    transform: translateY(-10px);
+    box-shadow:0 20px 30px 0 rgba(22, 22, 22, 0.2);
+    
+}
+
+.botao-saiba-mais {
+    background-color: rgb(196, 196, 196);
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 120px;
+    margin-top: 5px;
+    align-self: center;
+}
