@@ -35,9 +35,6 @@ body {
     height: 100vh;
 }
 
-img {
-
-}
 
 
 .banner-texto {
@@ -46,7 +43,7 @@ img {
     color: black;
     text-transform: uppercase;
     text-align: center;
-    background-color: rgb(250, 229, 203);
+    background-color: rgba(250, 229, 203, 0.575);
     padding: 20px;
     border-radius: 10px;
     display: flex;
@@ -69,4 +66,62 @@ img {
     width: 120px;
     margin-top: 5px;
     align-self: center;
+}
+
+.container-pai {
+    display: flex;
+    padding: 25px;
+    justify-content: space-evenly;
+    background-color: antiquewhite;
+    flex-wrap: wrap;
+}
+
+.container-filho {
+    background-color: rgb(253, 228, 195);
+    width: 200px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    color: black;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.container-filho:hover {
+    transform: translateY(-5px);
+    background-color: rgb(214, 197, 175);
+    box-shadow: 0 20px 30px 0 rgb(165, 147, 123);
+}
+
+.imagem-filosofia {
+    width: 100%;
+    border-radius: 100%;
+}
+
+.imagem-fisiologia {
+    width: 100%;
+    border-radius: 100%;
+}
+
+.imagem-biologia {
+    width: 100%;
+    border-radius: 100%;
+}
+
+.container-dad {
+    display: flex;
+    padding: 25px;
+    justify-content: space-evenly;
+    background-color: rgb(194, 168, 135);
+    flex-wrap: wrap;
+}
+
+.container-son {
+    justify-content: space-evenly;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.imagem-comum {
+    width: 600px;
+    border-radius: 15px;
 }
