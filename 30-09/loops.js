@@ -2,7 +2,7 @@ let voltas = 2
 
 
 while (voltas < 10) {
-    console.log (`pedlae, você já deu ${voltas} voltas`)
+    console.log (`pedale, você já deu ${voltas} voltas`)
 
     voltas ++
 }
