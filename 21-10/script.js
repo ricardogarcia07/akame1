@@ -2,7 +2,7 @@ const canvas = document.getElementById('gameCanvas');
 
 const ctx = canvas.getContext('2d');
 
-const box = 20;
+const box = 10;
 
 let snake = [{ x: box * 5, y: box * 5}];
 
@@ -113,6 +113,23 @@ function draw() {
     
 }
 
-setInterval(draw, 150)
 
-draw()
+if (snakeX < 0 || snakeX >= canvas.width || snakeY < 0 || snakeY >= canvas.height || collision(newHead, snake)) {
+
+    clearInterval(game);
+    alert('Game Over!')
+}
+
+
+function collision(head, array) {
+    for (let i = 1; i < array.length; i++) {
+
+
+    if (head.x === array[i].x && head.y === array[i].y) {
+        return true;
+    }
+  }
+
+  return false;
+
+}
