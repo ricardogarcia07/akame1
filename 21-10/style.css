@@ -3,7 +3,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: BlueViolet;
+    background-color: blueviolet;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 canvas {
