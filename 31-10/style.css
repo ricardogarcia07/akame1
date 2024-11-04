@@ -13,3 +13,38 @@
     top: 50%;
     transform: translateY(-50%);
 }
+
+.img1 {
+    width: 11%;
+    height: auto;
+}
+
+.img-slide1 {
+    width: 90%;
+    height: auto;
+}
+
+.card {
+    margin: 3.1%;
+    padding: 1%;
+}
+
+.card-img-top {
+    border-radius: 3%;
+}
+
+footer {
+    display: flex;
+    text-align: center;
+    background-color: black;
+}
+
+.img-blox {
+    display: flex;
+    text-align: center;
+}
+
+.container {
+    width: 768;
+    height: 432;
+}
