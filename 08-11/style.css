@@ -1,16 +1,27 @@
 body {
+    background-image: url(images/SpringtrapFire\ \(1\).webp);
+    height: 100%;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color: rgb(41, 41, 41);
     color: white;
+    padding: 0;
+    margin: 0;
+    background-size: cover;
 }
 
+@font-face {
+    font-family: 'White';
+    src: url('fonts/WhiteOnBlack.ttf') format('truetype');
+} 
+
 .tituloMenor {
-    font-size: 20px;
-    margin: 30px;
+    font-size: 16px;
+    margin: 20px;
+    font-family: 'White';
 }
 
 #titulo1 {
-    line-height: 50px;
+    line-height: 80px;
+    font-family: 'White';
 }
 
 a {
@@ -20,15 +31,44 @@ a {
 }
 
 main {
+    height: 100vh;
     display: flex;
     justify-content: center;
-    flex-direction: column;
-    text-align: center;
     align-items: center;
+    text-align: center;
 }
 
 .botao {
     padding: 5px;
     border-radius: 7px;
     background-color: navy;
+    font-family: 'White';
+}
+
+.pai {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 30px;
+    border-radius: 30px;
+    background-color: rgba(153, 45, 26, 0.192);
+    box-shadow: 0 0 20px 10px rgba(109, 33, 20, 0.377);
+}
+
+.botao {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 7px;
+    color: black;
+    background-color: rgb(94, 94, 94);
+    border: none;
+}
+
+.botao:hover {
+    background-color: lightsalmon;
+    color: wheat;
+
+    text-shadow: 0 0 10px yellow;
 }
