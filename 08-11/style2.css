@@ -1,0 +1,131 @@
+body {
+    background-image: url(images/fazbear\ \(1\).jpg);
+    height: 100%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    padding: 0;
+    margin: 0;
+    background-size: cover;
+}
+
+@font-face {
+    font-family: 'White';
+    src: url('fonts/WhiteOnBlack.ttf') format('truetype');
+} 
+
+.tituloMenor {
+    font-size: 16px;
+    margin: 20px;
+    font-family: 'White';
+}
+
+#titulo1 {
+    line-height: 80px;
+    font-family: 'White';
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.botao {
+    padding: 5px;
+    border-radius: 7px;
+    background-color: navy;
+    font-family: 'White';
+}
+
+.pai {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 30px;
+    border-radius: 30px;
+    background-color: rgba(52, 53, 58, 0.192);
+    box-shadow: 0 0 20px 10px rgba(75, 75, 75, 0.377);
+}
+
+.botao {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 7px;
+    color: black;
+    background-color: rgb(94, 94, 94);
+    border: none;
+}
+
+.botao:hover {
+    background-color: lightsalmon;
+    color: wheat;
+
+    text-shadow: 0 0 10px yellow;
+}
+
+#page2 {
+    background-image: url(images/fazbear\ \(3\).gif);
+    background-size: cover;
+}
+
+.pergunta {
+    font-size: 5vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    letter-spacing: 0.3vh;
+}
+
+.opcoes {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.resposta {
+    width: 300px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-family: 'White';
+    color: #000000;
+    background-color: rgba(255, 235, 205, 0.192);
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+
+.resposta:hover {
+    background-color: rgba(255, 245, 230, 0.192);
+    color: whitesmoke;
+    text-shadow: 0 0 10px;
+    transform: scale(1.1);
+}
+
+.tela-cheia {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.tela-cheia img {
+    width: 100%;
+    height: 100%;
+}
+
+#pergunta {
+    font-family: 'White';
+}

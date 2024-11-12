@@ -9,19 +9,19 @@ body {
 }
 
 @font-face {
-    font-family: 'White';
-    src: url('fonts/WhiteOnBlack.ttf') format('truetype');
+    font-family: 'Blood';
+    src: url('fonts/blood_crow/BLOODCROW.TTF') format('truetype');
 } 
 
 .tituloMenor {
     font-size: 16px;
     margin: 20px;
-    font-family: 'White';
+    font-family: 'Blood';
 }
 
 #titulo1 {
     line-height: 80px;
-    font-family: 'White';
+    font-family: 'Blood';
 }
 
 a {
