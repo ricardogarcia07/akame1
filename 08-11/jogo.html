@@ -5,30 +5,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jogo</title>
-    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="images/ghost-face.png" type="image/x-icon">
 </head>
 <body id="page2"> 
 
     <main>
-        <section  class="pai">
+        <section  class="pai questao ativa">
             <h3 class="titulo filho" id="pergunta">Quem foi o responsavel <br>pela mordida de 87...?</h3>
             <div class="opcoes">
-                <button class="resposta">Foxy</button>
-                <button class="resposta">Mangle</button>
-                <button class="resposta">Funtime Freddy</button>
-                <button class="resposta">Freddy</button>
-                <button class="resposta">Nenhuma das anteriores</button>
+                <button class="resposta" onclick="responder(false)">Foxy</button>
+                <button class="resposta" onclick="responder(false)">Mangle</button>
+                <button class="resposta" onclick="responder(false)">Funtime Freddy</button>
+                <button class="resposta" onclick="responder(true)">Freddy</button>
+                <button class="resposta" onclick="responder(false)">Nenhuma das anteriores</button>
             </div>
+        </section>
+
+            <section  class="pai questao">
+                <h3 class="titulo filho" id="pergunta">O instrumento que <br>o Bonnie toca é...?</h3>
+                <div class="opcoes">
+                    <button class="resposta" onclick="responder(true)">A Guitarra</button>
+                    <button class="resposta" onclick="responder(false)">O Baixo</button>
+                    <button class="resposta" onclick="responder(false)">Leite Ninho</button>
+                    <button class="resposta" onclick="responder(false)">O Teclado</button>
+                    <button class="resposta" onclick="responder(false)">William</button>
+                </div>
+            </section>
+
+            <section  class="pai questao">
+                <h3 class="titulo filho" id="pergunta">Qual dessas pessoas faz <br>parte da familia Afton...?</h3>
+                <div class="opcoes">
+                    <button class="resposta" onclick="responder(false)">Danny</button>
+                    <button class="resposta" onclick="responder(false)">Mangle</button>
+                    <button class="resposta" onclick="responder(true)">Michael</button>
+                    <button class="resposta" onclick="responder(false)">Rodrigo Faro</button>
+                    <button class="resposta" onclick="responder(false)">Pelé</button>
+                </div>
+            </section>
+
+        
     </main>
 
 
-    <div id="telaCheiaErro" class="tela-cheia">
-        <img src="images/fnaf-chica.gif" alt="Erro" id="imagemErro">
-        <audio id="somErro" src=""></audio>
+    <div id="telaCheiaErro" class="tela-cheia img">
+        <img src="images/ngt123.gif" alt="Erro" id="imagemErro">
+        <audio id="somErro" src="audio/FNAF 2 Jumpscare Sound (online-audio-converter.com).mp3"></audio>
     </div>
 
 
     <script src="script.js"></script>
+    
 </body>
 </html>
